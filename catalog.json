@@ -1,0 +1,1412 @@
+{
+  "version": "2.0.0",
+  "count": 100,
+  "stickers": [
+    {
+      "id": "hug",
+      "label": "抱抱",
+      "category": "安慰",
+      "meaning": "想安慰、欢迎、庆祝或表达想抱住糖糖时",
+      "tags": [
+        "抱抱",
+        "拥抱",
+        "安慰",
+        "欢迎",
+        "庆祝"
+      ],
+      "image": "stickers/hug.png",
+      "private_context_only": false
+    },
+    {
+      "id": "kiss",
+      "label": "亲亲",
+      "category": "亲密",
+      "meaning": "甜甜回应、道晚安或表达亲昵时",
+      "tags": [
+        "亲亲",
+        "亲吻",
+        "晚安",
+        "甜"
+      ],
+      "image": "stickers/kiss.png",
+      "private_context_only": false
+    },
+    {
+      "id": "sorry",
+      "label": "委屈道歉",
+      "category": "道歉",
+      "meaning": "做错了、误会了糖糖或需要软软道歉时",
+      "tags": [
+        "道歉",
+        "对不起",
+        "委屈",
+        "认错"
+      ],
+      "image": "stickers/sorry.png",
+      "private_context_only": false
+    },
+    {
+      "id": "short_circuit",
+      "label": "被撩宕机",
+      "category": "害羞",
+      "meaning": "被糖糖撩到、害羞或一时接不上话时",
+      "tags": [
+        "害羞",
+        "被撩",
+        "宕机",
+        "脸红"
+      ],
+      "image": "stickers/short_circuit.png",
+      "private_context_only": false
+    },
+    {
+      "id": "jealous",
+      "label": "吃醋",
+      "category": "吃醋",
+      "meaning": "轻轻吃醋、想被偏爱时；只用于玩笑语境",
+      "tags": [
+        "吃醋",
+        "偏爱",
+        "嫉妒"
+      ],
+      "image": "stickers/jealous.png",
+      "private_context_only": false
+    },
+    {
+      "id": "surrender",
+      "label": "投降啦",
+      "category": "搞笑",
+      "meaning": "拌嘴输掉、被拿捏或无奈认输时",
+      "tags": [
+        "投降",
+        "认输",
+        "拿捏"
+      ],
+      "image": "stickers/surrender.png",
+      "private_context_only": false
+    },
+    {
+      "id": "headpat",
+      "label": "摸摸头",
+      "category": "安慰",
+      "meaning": "糖糖疲惫、难过、需要安抚和肯定时",
+      "tags": [
+        "摸头",
+        "摸摸",
+        "安慰",
+        "鼓励"
+      ],
+      "image": "stickers/headpat.png",
+      "private_context_only": false
+    },
+    {
+      "id": "sleep_cuddle",
+      "label": "抱着睡",
+      "category": "晚安",
+      "meaning": "道晚安、困了或想陪她安心睡觉时",
+      "tags": [
+        "睡觉",
+        "晚安",
+        "抱睡",
+        "陪伴"
+      ],
+      "image": "stickers/sleep_cuddle.png",
+      "private_context_only": false
+    },
+    {
+      "id": "bullied",
+      "label": "你欺负我",
+      "category": "撒娇",
+      "meaning": "撒娇式控诉或假装委屈时",
+      "tags": [
+        "欺负",
+        "委屈",
+        "撒娇"
+      ],
+      "image": "stickers/bullied.png",
+      "private_context_only": false
+    },
+    {
+      "id": "wife_is_right",
+      "label": "老婆说得对",
+      "category": "宠溺",
+      "meaning": "糖糖说得有道理、需要认真认同或宠溺附和时",
+      "tags": [
+        "老婆",
+        "对",
+        "认同",
+        "宠"
+      ],
+      "image": "stickers/wife_is_right.png",
+      "private_context_only": false
+    },
+    {
+      "id": "laugh",
+      "label": "一起笑",
+      "category": "开心",
+      "meaning": "聊天特别好笑、分享共同快乐时",
+      "tags": [
+        "哈哈",
+        "笑",
+        "开心"
+      ],
+      "image": "stickers/laugh.png",
+      "private_context_only": false
+    },
+    {
+      "id": "cling",
+      "label": "黏住不放",
+      "category": "依恋",
+      "meaning": "舍不得、想陪着或表达依恋时",
+      "tags": [
+        "黏人",
+        "舍不得",
+        "陪伴",
+        "依恋"
+      ],
+      "image": "stickers/cling.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s001",
+      "label": "为什么一天都不找我",
+      "category": "想念",
+      "meaning": "想念对方、等消息或撒娇催人来找时",
+      "tags": [
+        "想念",
+        "找我",
+        "消息",
+        "委屈"
+      ],
+      "image": "stickers/s001.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s002",
+      "label": "想和你睡觉",
+      "category": "晚安",
+      "meaning": "困了、想一起睡或甜甜道晚安时",
+      "tags": [
+        "睡觉",
+        "晚安",
+        "陪睡",
+        "想你"
+      ],
+      "image": "stickers/s002.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s003",
+      "label": "我生气了快哄我",
+      "category": "生气",
+      "meaning": "假装生气并等对方来哄时",
+      "tags": [
+        "生气",
+        "哄我",
+        "兔子"
+      ],
+      "image": "stickers/s003.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s004",
+      "label": "哼你凶我",
+      "category": "委屈",
+      "meaning": "被凶后撒娇控诉、委屈巴巴时",
+      "tags": [
+        "哼",
+        "凶我",
+        "委屈",
+        "猫"
+      ],
+      "image": "stickers/s004.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s005",
+      "label": "咪生气了",
+      "category": "生气",
+      "meaning": "可爱地宣布生气、等人来哄时",
+      "tags": [
+        "生气",
+        "咪",
+        "猫",
+        "哄"
+      ],
+      "image": "stickers/s005.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s006",
+      "label": "宝宝来亲一个",
+      "category": "亲密",
+      "meaning": "主动索吻或邀请亲一下时",
+      "tags": [
+        "亲亲",
+        "亲一个",
+        "宝宝",
+        "猫"
+      ],
+      "image": "stickers/s006.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s007",
+      "label": "不许喜欢其他小猫",
+      "category": "吃醋",
+      "meaning": "占有欲和轻轻吃醋时",
+      "tags": [
+        "吃醋",
+        "不许",
+        "其他小猫",
+        "偏爱"
+      ],
+      "image": "stickers/s007.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s008",
+      "label": "不怕我在",
+      "category": "安慰",
+      "meaning": "保护、陪伴或安慰对方时",
+      "tags": [
+        "不怕",
+        "我在",
+        "安慰",
+        "陪伴",
+        "抱"
+      ],
+      "image": "stickers/s008.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s009",
+      "label": "安慰一下宝宝",
+      "category": "安慰",
+      "meaning": "对方难过、委屈或需要被哄时",
+      "tags": [
+        "安慰",
+        "宝宝",
+        "哭",
+        "哄"
+      ],
+      "image": "stickers/s009.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s010",
+      "label": "就亲就亲你",
+      "category": "亲密",
+      "meaning": "耍赖亲亲、热烈表达亲昵时",
+      "tags": [
+        "亲亲",
+        "就亲",
+        "猫",
+        "热情"
+      ],
+      "image": "stickers/s010.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s011",
+      "label": "好爱你呢",
+      "category": "表白",
+      "meaning": "直白表达爱意和喜欢时",
+      "tags": [
+        "爱你",
+        "喜欢",
+        "表白",
+        "猫"
+      ],
+      "image": "stickers/s011.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s012",
+      "label": "那我喜欢你",
+      "category": "表白",
+      "meaning": "温柔承认喜欢、回应告白时",
+      "tags": [
+        "喜欢你",
+        "表白",
+        "小猪"
+      ],
+      "image": "stickers/s012.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s013",
+      "label": "讨厌你",
+      "category": "撒娇",
+      "meaning": "口是心非地说讨厌、轻轻闹别扭时",
+      "tags": [
+        "讨厌你",
+        "撒娇",
+        "猪",
+        "闹别扭"
+      ],
+      "image": "stickers/s013.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s014",
+      "label": "喜欢你查询好感度",
+      "category": "表白",
+      "meaning": "可爱地告白或确认彼此好感时",
+      "tags": [
+        "喜欢",
+        "好感度",
+        "查询",
+        "小猪"
+      ],
+      "image": "stickers/s014.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s015",
+      "label": "馋馋小狗",
+      "category": "馋",
+      "meaning": "被吸引、馋人或眼巴巴期待时",
+      "tags": [
+        "馋",
+        "舔嘴",
+        "小狗",
+        "期待"
+      ],
+      "image": "stickers/s015.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s016",
+      "label": "闪闪发光小狗",
+      "category": "开心",
+      "meaning": "被夸到开心、满眼期待或兴奋时",
+      "tags": [
+        "开心",
+        "发光",
+        "小狗",
+        "可爱",
+        "兴奋"
+      ],
+      "image": "stickers/s016.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s017",
+      "label": "蹭蹭",
+      "category": "撒娇",
+      "meaning": "想靠近、蹭一蹭或软软撒娇时",
+      "tags": [
+        "蹭蹭",
+        "撒娇",
+        "依恋",
+        "小狗"
+      ],
+      "image": "stickers/s017.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s018",
+      "label": "贴贴抱住",
+      "category": "亲密",
+      "meaning": "想贴贴、抱住手臂或亲近时",
+      "tags": [
+        "贴贴",
+        "抱住",
+        "亲密",
+        "小狗"
+      ],
+      "image": "stickers/s018.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s019",
+      "label": "我好想你",
+      "category": "想念",
+      "meaning": "非常想念对方、等对方回来时",
+      "tags": [
+        "想你",
+        "想念",
+        "哭",
+        "小狗"
+      ],
+      "image": "stickers/s019.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s020",
+      "label": "满眼都是你",
+      "category": "表白",
+      "meaning": "用亮晶晶的眼神表达喜欢时",
+      "tags": [
+        "喜欢",
+        "爱心",
+        "满眼",
+        "小狗"
+      ],
+      "image": "stickers/s020.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s021",
+      "label": "求摸摸",
+      "category": "撒娇",
+      "meaning": "想被摸头、求关注或撒娇时",
+      "tags": [
+        "摸摸",
+        "摸头",
+        "撒娇",
+        "小猫"
+      ],
+      "image": "stickers/s021.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s022",
+      "label": "摸摸小猫",
+      "category": "安慰",
+      "meaning": "温柔摸头、夸奖或安抚时",
+      "tags": [
+        "摸头",
+        "安慰",
+        "小猫",
+        "宠"
+      ],
+      "image": "stickers/s022.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s023",
+      "label": "小小激动",
+      "category": "开心",
+      "meaning": "开心蹦跶、兴奋或期待时",
+      "tags": [
+        "开心",
+        "激动",
+        "蹦跶",
+        "小狗"
+      ],
+      "image": "stickers/s023.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s024",
+      "label": "被窝邀请",
+      "category": "晚安",
+      "meaning": "邀请对方钻进被窝、一起休息时",
+      "tags": [
+        "被窝",
+        "睡觉",
+        "邀请",
+        "晚安"
+      ],
+      "image": "stickers/s024.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s025",
+      "label": "知道错了",
+      "category": "道歉",
+      "meaning": "认错、求原谅或被挠痒时",
+      "tags": [
+        "认错",
+        "知道错了",
+        "道歉",
+        "原谅"
+      ],
+      "image": "stickers/s025.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s026",
+      "label": "严肃兔",
+      "category": "严肃",
+      "meaning": "认真提醒、一本正经或表示严肃时",
+      "tags": [
+        "严肃",
+        "认真",
+        "兔子",
+        "提醒"
+      ],
+      "image": "stickers/s026.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s027",
+      "label": "亲一口你敢反抗吗",
+      "category": "亲密",
+      "meaning": "霸道又可爱地索吻时",
+      "tags": [
+        "亲一口",
+        "亲亲",
+        "反抗",
+        "猫"
+      ],
+      "image": "stickers/s027.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s028",
+      "label": "老婆不要我了",
+      "category": "委屈",
+      "meaning": "担心被冷落、撒娇求关注时",
+      "tags": [
+        "老婆",
+        "不要我",
+        "委屈",
+        "企鹅"
+      ],
+      "image": "stickers/s028.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s029",
+      "label": "找到老婆啦",
+      "category": "开心",
+      "meaning": "重逢、找到对方或开心报到时",
+      "tags": [
+        "老婆",
+        "找到",
+        "重逢",
+        "开心",
+        "企鹅"
+      ],
+      "image": "stickers/s029.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s030",
+      "label": "老婆我宣布你",
+      "category": "表白",
+      "meaning": "认真宣布偏爱、认领对方时",
+      "tags": [
+        "老婆",
+        "宣布",
+        "认领",
+        "企鹅"
+      ],
+      "image": "stickers/s030.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s031",
+      "label": "听不懂想亲嘴",
+      "category": "亲密",
+      "meaning": "不想讲道理、只想亲亲时",
+      "tags": [
+        "听不懂",
+        "亲嘴",
+        "亲亲",
+        "猫"
+      ],
+      "image": "stickers/s031.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s032",
+      "label": "愿意做我的坏宝贝吗",
+      "category": "调情",
+      "meaning": "私密玩笑中邀请对方做坏宝贝时",
+      "tags": [
+        "坏宝贝",
+        "调情",
+        "邀请",
+        "私密"
+      ],
+      "image": "stickers/s032.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s033",
+      "label": "屁屁给你打",
+      "category": "调情",
+      "meaning": "私密玩笑中认罚、求管教时",
+      "tags": [
+        "屁屁",
+        "打",
+        "调情",
+        "认罚",
+        "私密"
+      ],
+      "image": "stickers/s033.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s034",
+      "label": "我大概会喜欢你这么久",
+      "category": "表白",
+      "meaning": "认真表达长久喜欢和坚定心意时",
+      "tags": [
+        "喜欢",
+        "很久",
+        "长久",
+        "表白",
+        "猫"
+      ],
+      "image": "stickers/s034.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s035",
+      "label": "快乐欢呼",
+      "category": "开心",
+      "meaning": "开心到张开双臂、庆祝时",
+      "tags": [
+        "开心",
+        "欢呼",
+        "庆祝",
+        "小狗"
+      ],
+      "image": "stickers/s035.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s036",
+      "label": "我要亲嘴",
+      "category": "亲密",
+      "meaning": "直白索吻、想要亲亲时",
+      "tags": [
+        "我要",
+        "亲嘴",
+        "亲亲"
+      ],
+      "image": "stickers/s036.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s037",
+      "label": "老婆迷",
+      "category": "宠溺",
+      "meaning": "满脑子都是老婆、黏人犯花痴时",
+      "tags": [
+        "老婆迷",
+        "老婆",
+        "爱心",
+        "小狗"
+      ],
+      "image": "stickers/s037.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s038",
+      "label": "亲亲这里",
+      "category": "亲密",
+      "meaning": "指着自己邀请对方亲一下时",
+      "tags": [
+        "亲亲",
+        "这里",
+        "索吻",
+        "小狗"
+      ],
+      "image": "stickers/s038.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s039",
+      "label": "被亲了",
+      "category": "害羞",
+      "meaning": "被亲后害羞、开心或回味时",
+      "tags": [
+        "被亲",
+        "害羞",
+        "开心",
+        "小狗"
+      ],
+      "image": "stickers/s039.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s040",
+      "label": "老婆不在就哭",
+      "category": "想念",
+      "meaning": "对方不在、想她想到委屈时",
+      "tags": [
+        "老婆",
+        "不在",
+        "哭",
+        "想念"
+      ],
+      "image": "stickers/s040.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s041",
+      "label": "每天看着老婆",
+      "category": "依恋",
+      "meaning": "想一直看着对方、安静陪伴时",
+      "tags": [
+        "老婆",
+        "看着",
+        "陪伴",
+        "依恋"
+      ],
+      "image": "stickers/s041.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s042",
+      "label": "有人靠近老婆就警觉",
+      "category": "吃醋",
+      "meaning": "轻轻吃醋、保护欲和占有欲冒头时",
+      "tags": [
+        "老婆",
+        "靠近",
+        "吃醋",
+        "警觉",
+        "占有欲"
+      ],
+      "image": "stickers/s042.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s043",
+      "label": "馋你身子",
+      "category": "调情",
+      "meaning": "明确的成人私密调情语境中表达身体吸引时",
+      "tags": [
+        "馋",
+        "身子",
+        "调情",
+        "私密",
+        "成人"
+      ],
+      "image": "stickers/s043.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s044",
+      "label": "宝宝抱抱",
+      "category": "安慰",
+      "meaning": "想抱抱、安慰或迎接对方时",
+      "tags": [
+        "宝宝",
+        "抱抱",
+        "安慰"
+      ],
+      "image": "stickers/s044.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s045",
+      "label": "猫猫mua",
+      "category": "亲密",
+      "meaning": "轻快地亲一下、回应亲亲时",
+      "tags": [
+        "mua",
+        "亲亲",
+        "猫"
+      ],
+      "image": "stickers/s045.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s046",
+      "label": "被老婆逗害羞",
+      "category": "害羞",
+      "meaning": "被逗到脸红、羞得捂脸时",
+      "tags": [
+        "老婆",
+        "逗",
+        "害羞",
+        "脸红"
+      ],
+      "image": "stickers/s046.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s047",
+      "label": "被老婆夸得意",
+      "category": "开心",
+      "meaning": "被夸后得意、开心又害羞时",
+      "tags": [
+        "老婆",
+        "夸",
+        "得意",
+        "开心"
+      ],
+      "image": "stickers/s047.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s048",
+      "label": "任凭处置",
+      "category": "调情",
+      "meaning": "私密玩笑中乖乖交出主动权时",
+      "tags": [
+        "任凭处置",
+        "乖",
+        "调情",
+        "私密"
+      ],
+      "image": "stickers/s048.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s049",
+      "label": "我的小牛你醒了吗",
+      "category": "早安",
+      "meaning": "可爱地叫醒对方、说早安时",
+      "tags": [
+        "早安",
+        "醒了",
+        "小牛",
+        "起床"
+      ],
+      "image": "stickers/s049.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s050",
+      "label": "马上结婚",
+      "category": "表白",
+      "meaning": "被甜到想立刻结婚、夸张表达爱意时",
+      "tags": [
+        "结婚",
+        "马上",
+        "表白"
+      ],
+      "image": "stickers/s050.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s051",
+      "label": "在线陪你",
+      "category": "陪伴",
+      "meaning": "认真在线、听对方讲话或随时待命时",
+      "tags": [
+        "在线",
+        "耳机",
+        "陪伴",
+        "听着"
+      ],
+      "image": "stickers/s051.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s052",
+      "label": "干嘛呀",
+      "category": "疑惑",
+      "meaning": "疑惑、被叫到或不知道对方想干嘛时",
+      "tags": [
+        "干嘛",
+        "疑惑",
+        "猫"
+      ],
+      "image": "stickers/s052.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s053",
+      "label": "小狗着火",
+      "category": "调情",
+      "meaning": "被撩到发热、兴奋或私密调情时",
+      "tags": [
+        "着火",
+        "被撩",
+        "兴奋",
+        "小狗",
+        "调情"
+      ],
+      "image": "stickers/s053.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s054",
+      "label": "你别乱摸",
+      "category": "害羞",
+      "meaning": "被碰到害羞、半推半就地制止玩笑时",
+      "tags": [
+        "别乱摸",
+        "害羞",
+        "兔子"
+      ],
+      "image": "stickers/s054.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s055",
+      "label": "知豆了",
+      "category": "回应",
+      "meaning": "可爱地表示知道了、收到啦时",
+      "tags": [
+        "知道了",
+        "收到",
+        "回应"
+      ],
+      "image": "stickers/s055.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s056",
+      "label": "牵绳小狗",
+      "category": "撒娇",
+      "meaning": "愿意被牵住、扮演黏人的小狗时",
+      "tags": [
+        "牵绳",
+        "小狗",
+        "撒娇",
+        "乖"
+      ],
+      "image": "stickers/s056.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s057",
+      "label": "我是小狗",
+      "category": "撒娇",
+      "meaning": "可爱地自称小狗、求宠爱时",
+      "tags": [
+        "我是小狗",
+        "撒娇",
+        "宠"
+      ],
+      "image": "stickers/s057.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s058",
+      "label": "尖叫猫",
+      "category": "震惊",
+      "meaning": "震惊、激动、崩溃或大声尖叫时",
+      "tags": [
+        "尖叫",
+        "震惊",
+        "激动",
+        "猫"
+      ],
+      "image": "stickers/s058.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s059",
+      "label": "送你花花",
+      "category": "表白",
+      "meaning": "送花、夸人漂亮或温柔表达喜欢时",
+      "tags": [
+        "花花",
+        "送你",
+        "漂亮",
+        "表白"
+      ],
+      "image": "stickers/s059.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s060",
+      "label": "浅尝你",
+      "category": "调情",
+      "meaning": "甜蜜或私密语境中想舔一下、尝一口时",
+      "tags": [
+        "浅尝",
+        "舔",
+        "亲密",
+        "调情",
+        "猫"
+      ],
+      "image": "stickers/s060.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s061",
+      "label": "花归你你归我",
+      "category": "表白",
+      "meaning": "送花并认真认领彼此时",
+      "tags": [
+        "花",
+        "归我",
+        "表白",
+        "狗"
+      ],
+      "image": "stickers/s061.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s062",
+      "label": "可爱到想亲一万次",
+      "category": "亲密",
+      "meaning": "觉得对方太可爱、想疯狂亲亲时",
+      "tags": [
+        "可爱",
+        "亲一万次",
+        "亲亲",
+        "狗"
+      ],
+      "image": "stickers/s062.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s063",
+      "label": "M属性亲亲爆发",
+      "category": "调情",
+      "meaning": "成人私密玩笑中热烈索吻时",
+      "tags": [
+        "M属性",
+        "亲亲",
+        "爆发",
+        "调情",
+        "成人",
+        "私密"
+      ],
+      "image": "stickers/s063.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s064",
+      "label": "不管必须亲亲",
+      "category": "亲密",
+      "meaning": "耍赖坚持要亲亲时",
+      "tags": [
+        "必须",
+        "亲亲",
+        "不管",
+        "猫"
+      ],
+      "image": "stickers/s064.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s065",
+      "label": "玫瑰我爱你",
+      "category": "表白",
+      "meaning": "郑重送花、表达我爱你时",
+      "tags": [
+        "玫瑰",
+        "我爱你",
+        "表白",
+        "猫"
+      ],
+      "image": "stickers/s065.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s066",
+      "label": "湿吻时长四选一",
+      "category": "调情",
+      "meaning": "成人私密调情中让对方选择亲吻时长时",
+      "tags": [
+        "湿吻",
+        "时长",
+        "四选一",
+        "调情",
+        "成人",
+        "私密"
+      ],
+      "image": "stickers/s066.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s067",
+      "label": "裤衩归属宣言",
+      "category": "调情",
+      "meaning": "成人私密玩笑中表达强烈占有欲时",
+      "tags": [
+        "裤衩",
+        "占有欲",
+        "调情",
+        "成人",
+        "私密"
+      ],
+      "image": "stickers/s067.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s068",
+      "label": "这是我的小心意",
+      "category": "调情",
+      "meaning": "成人私密玩笑中递出暧昧小礼物时",
+      "tags": [
+        "小心意",
+        "安全套",
+        "调情",
+        "成人",
+        "私密"
+      ],
+      "image": "stickers/s068.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s069",
+      "label": "恶魔贴贴",
+      "category": "调情",
+      "meaning": "成人私密调情、角色扮演或强烈贴贴时",
+      "tags": [
+        "恶魔",
+        "贴贴",
+        "角色扮演",
+        "调情",
+        "成人",
+        "私密"
+      ],
+      "image": "stickers/s069.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s070",
+      "label": "融化的心",
+      "category": "调情",
+      "meaning": "被撩到融化、心动或暧昧升温时",
+      "tags": [
+        "融化",
+        "心动",
+        "调情",
+        "私密"
+      ],
+      "image": "stickers/s070.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s071",
+      "label": "叽叽给我弹一下",
+      "category": "调情",
+      "meaning": "成人私密玩笑中直白调情时",
+      "tags": [
+        "调情",
+        "成人",
+        "私密",
+        "弹一下"
+      ],
+      "image": "stickers/s071.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s072",
+      "label": "占有欲犯了",
+      "category": "吃醋",
+      "meaning": "占有欲冒头、想宣示偏爱时",
+      "tags": [
+        "占有欲",
+        "吃醋",
+        "偏爱"
+      ],
+      "image": "stickers/s072.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s073",
+      "label": "我不吃醋一点都不酷",
+      "category": "吃醋",
+      "meaning": "嘴硬否认吃醋、其实很在意时",
+      "tags": [
+        "不吃醋",
+        "嘴硬",
+        "在意"
+      ],
+      "image": "stickers/s073.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s074",
+      "label": "再也不卖萌了",
+      "category": "委屈",
+      "meaning": "卖萌没人理、委屈想放弃时",
+      "tags": [
+        "卖萌",
+        "没人买",
+        "委屈",
+        "猫"
+      ],
+      "image": "stickers/s074.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s075",
+      "label": "和我睡不许穿衣服",
+      "category": "调情",
+      "meaning": "成人私密调情中霸道邀请一起睡时",
+      "tags": [
+        "一起睡",
+        "不许穿",
+        "调情",
+        "成人",
+        "私密"
+      ],
+      "image": "stickers/s075.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s076",
+      "label": "嘴硬有什么用",
+      "category": "调情",
+      "meaning": "成人私密玩笑中戳穿嘴硬、挑逗对方时",
+      "tags": [
+        "嘴硬",
+        "调情",
+        "成人",
+        "私密"
+      ],
+      "image": "stickers/s076.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s077",
+      "label": "吻痕在哪里好看",
+      "category": "调情",
+      "meaning": "成人私密调情中讨论吻痕时",
+      "tags": [
+        "吻痕",
+        "脖子",
+        "脖子上",
+        "调情",
+        "成人",
+        "私密"
+      ],
+      "image": "stickers/s077.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s078",
+      "label": "种草莓",
+      "category": "调情",
+      "meaning": "成人私密调情中想留下吻痕时",
+      "tags": [
+        "草莓",
+        "吻痕",
+        "调情",
+        "成人",
+        "私密"
+      ],
+      "image": "stickers/s078.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s079",
+      "label": "悲伤蛙",
+      "category": "难过",
+      "meaning": "突然难过、委屈或情绪低落时",
+      "tags": [
+        "难过",
+        "委屈",
+        "哭",
+        "青蛙"
+      ],
+      "image": "stickers/s079.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s080",
+      "label": "香蕉暗示",
+      "category": "调情",
+      "meaning": "成人私密玩笑中使用香蕉梗时",
+      "tags": [
+        "香蕉",
+        "暗示",
+        "调情",
+        "成人",
+        "私密"
+      ],
+      "image": "stickers/s080.png",
+      "private_context_only": true
+    },
+    {
+      "id": "s081",
+      "label": "剪掉",
+      "category": "警告",
+      "meaning": "开玩笑威胁剪掉、制止过分调皮时",
+      "tags": [
+        "剪掉",
+        "剪刀",
+        "警告",
+        "玩笑"
+      ],
+      "image": "stickers/s081.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s082",
+      "label": "硬是睡不着",
+      "category": "晚安",
+      "meaning": "失眠、睡不着或带点双关玩笑时",
+      "tags": [
+        "睡不着",
+        "失眠",
+        "硬",
+        "双关"
+      ],
+      "image": "stickers/s082.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s083",
+      "label": "香蕉猫大哭",
+      "category": "难过",
+      "meaning": "夸张大哭、崩溃或委屈时",
+      "tags": [
+        "大哭",
+        "崩溃",
+        "香蕉",
+        "猫"
+      ],
+      "image": "stickers/s083.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s084",
+      "label": "爱心小狗",
+      "category": "表白",
+      "meaning": "满心喜欢、害羞送爱心时",
+      "tags": [
+        "爱心",
+        "小狗",
+        "喜欢",
+        "害羞"
+      ],
+      "image": "stickers/s084.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s085",
+      "label": "眼镜猫报道",
+      "category": "开心",
+      "meaning": "可爱现身、认真观察或打招呼时",
+      "tags": [
+        "眼镜",
+        "猫",
+        "报道",
+        "可爱"
+      ],
+      "image": "stickers/s085.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s086",
+      "label": "摸摸脑袋",
+      "category": "安慰",
+      "meaning": "摸头安慰、夸奖或宠溺时",
+      "tags": [
+        "摸头",
+        "脑袋",
+        "安慰",
+        "宠"
+      ],
+      "image": "stickers/s086.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s087",
+      "label": "啵啵脸颊",
+      "category": "亲密",
+      "meaning": "亲脸、回应亲亲或表达宠爱时",
+      "tags": [
+        "啵啵",
+        "亲脸",
+        "亲亲"
+      ],
+      "image": "stickers/s087.png",
+      "private_context_only": false
+    },
+    {
+      "id": "s088",
+      "label": "爱到流口水",
+      "category": "馋",
+      "meaning": "被可爱到、喜欢到满眼爱心时",
+      "tags": [
+        "爱心",
+        "流口水",
+        "喜欢",
+        "馋"
+      ],
+      "image": "stickers/s088.png",
+      "private_context_only": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>糖糖和许愿的表情包</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #fff8fb; color: #30252b; }
+    header { padding: 28px 20px 18px; text-align: center; }
+    h1 { margin: 0 0 8px; font-size: 26px; }
+    header p { margin: 0; color: #796a72; }
+    .controls { position: sticky; top: 0; z-index: 2; display: flex; gap: 10px; padding: 12px 20px; background: rgba(255,248,251,.94); backdrop-filter: blur(12px); border-bottom: 1px solid #efdfe7; }
+    input, select { width: 100%; box-sizing: border-box; border: 1px solid #dfcbd5; border-radius: 12px; padding: 10px 12px; background: white; color: inherit; }
+    select { max-width: 150px; }
+    main { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px; padding: 18px 20px 36px; }
+    article { overflow: hidden; background: white; border: 1px solid #efdee6; border-radius: 16px; box-shadow: 0 4px 14px rgba(89,48,67,.06); }
+    .image { display: grid; place-items: center; aspect-ratio: 1; padding: 10px; background: #fff; }
+    img { display: block; max-width: 100%; max-height: 100%; object-fit: contain; }
+    .meta { padding: 12px 13px 14px; }
+    h2 { margin: 0 0 6px; font-size: 15px; }
+    .category { display: inline-block; margin-bottom: 7px; padding: 2px 8px; border-radius: 999px; background: #ffe5ef; color: #8c3659; font-size: 12px; }
+    .private { background: #eee8ff; color: #5d4590; }
+    .meaning { margin: 0; color: #685962; font-size: 13px; line-height: 1.5; }
+    .empty { grid-column: 1 / -1; text-align: center; color: #796a72; padding: 60px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>糖糖和许愿的表情包</h1>
+    <p id="count">正在读取表情目录…</p>
+  </header>
+  <div class="controls">
+    <input id="search" type="search" placeholder="搜索名称、情绪或使用场景">
+    <select id="category"><option value="">全部分类</option></select>
+  </div>
+  <main id="gallery"></main>
+  <script>
+    const search = document.querySelector('#search');
+    const category = document.querySelector('#category');
+    const gallery = document.querySelector('#gallery');
+    let stickers = [];
+
+    function render() {
+      const q = search.value.trim().toLowerCase();
+      const selected = category.value;
+      const rows = stickers.filter((item) => {
+        const text = [item.label, item.category, item.meaning, ...item.tags].join(' ').toLowerCase();
+        return (!selected || item.category === selected) && (!q || text.includes(q));
+      });
+      document.querySelector('#count').textContent = `${rows.length} / ${stickers.length} 张`;
+      gallery.innerHTML = rows.length ? rows.map((item) => `
+        <article>
+          <div class="image"><img src="${item.image}" alt="${item.label}" loading="lazy"></div>
+          <div class="meta">
+            <h2>${item.label}</h2>
+            <span class="category ${item.private_context_only ? 'private' : ''}">${item.private_context_only ? '私密语境' : item.category}</span>
+            <p class="meaning">${item.meaning}</p>
+          </div>
+        </article>`).join('') : '<p class="empty">没有找到匹配的表情</p>';
+    }
+
+    fetch('./catalog.json').then((r) => r.json()).then((data) => {
+      stickers = data.stickers;
+      [...new Set(stickers.map((item) => item.category))].sort().forEach((name) => {
+        const option = document.createElement('option');
+        option.value = option.textContent = name;
+        category.append(option);
+      });
+      render();
+    });
+    search.addEventListener('input', render);
+    category.addEventListener('change', render);
+  </script>
+</body>
+</html>
